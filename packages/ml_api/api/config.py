@@ -2,7 +2,7 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 import pathlib
 import os
-import sys
+import sys 
 
 PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent.parent
 
