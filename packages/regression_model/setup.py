@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 
 
 # Package meta-data.
-NAME = 'regression_model'
+NAME = 'regressionmodel'
 DESCRIPTION = 'Train and deploy regression model.'
 URL = 'your github project'
 EMAIL = 'your_email@email.com'
