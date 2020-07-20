@@ -1,2 +1,2 @@
 # Deploying Machine Learning Models
-For the documentation, visit the course on Udemy.2
+For the documentation, visit the course on Udemy.3
