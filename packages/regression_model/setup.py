@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 
 
 # Package meta-data.
-NAME = 'regressionmodel'
+NAME = 'regression_model'
 DESCRIPTION = 'Train and deploy regression model.'
 URL = 'your github project'
 EMAIL = 'your_email@email.com'
@@ -51,7 +51,7 @@ with open(PACKAGE_DIR / 'VERSION') as f:
 
 # Where the magic happens:
 setup(
-    name=NAME,
+    name="regressionmodel",
     version=about['__version__'],
     description=DESCRIPTION,
     long_description=long_description,
