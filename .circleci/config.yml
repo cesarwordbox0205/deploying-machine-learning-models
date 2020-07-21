@@ -20,6 +20,7 @@ fetch_data: &fetch_data
       source venv/bin/activate
       chmod +x ./scripts/fetch_kaggle_dataset.sh
       ./scripts/fetch_kaggle_dataset.sh
+      unzip -j "packages/regression_model/regression_model/datasets/house-prices-advanced-regression-techniques" "*.csv" -d "packages/regression_model/regression_model/datasets/"
 
 jobs:
   test_regression_model:
@@ -149,7 +150,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - heroku_docker
       # - section_10_deploy_to_heroku:
       #     requires:
       #       - train_and_upload_regression_model
@@ -163,4 +164,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - heroku_docker
